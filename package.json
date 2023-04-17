@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-logger-oppbxq",
+  "version": "1.0.0",
+  "description": "Develop the command line node.js application, which parses the input log file (see Input Example). The application should find all the log messages with the level error and print them into the output file (see Output Format).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js --input ./app.log --output ./errors.json",
+    "test": "npx jest",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://berbob-gmbh-yxyjfg@git.codesubmit.io/berbob-gmbh/nodejs-logger-oppbxq"
+  },
+  "author": "Farrukh Mamatkhalilov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-mockery": "^1.2.0",
+    "typescript": "^5.0.4"
+  }
+}

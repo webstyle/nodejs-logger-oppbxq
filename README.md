@@ -1,3 +1,6 @@
+### How to run
+Please check `GUIDE.md` file.
+
 ### Log parser app
 
 Develop the command line node.js application, which parses the input log file (see Input Example).
